@@ -1,0 +1,179 @@
+name: PeopleSoft Financials APIs
+description: API collection for Oracle PeopleSoft Financials suite covering General Ledger, Accounts Payable, Accounts Receivable, Asset Management, and other financial modules
+image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+url: https://www.oracle.com/applications/peoplesoft/
+tags:
+- ERP
+- Financials
+- PeopleSoft
+- Oracle
+- Enterprise
+created: '2024'
+modified: '2024'
+apis:
+- name: PeopleSoft General Ledger API
+  description: REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/gl/
+  tags:
+  - General Ledger
+  - Journals
+  - ChartFields
+  - Financial Reporting
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/gl/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Accounts Payable API
+  description: REST API for vendor management, invoice processing, payments, and AP reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/ap/
+  tags:
+  - Accounts Payable
+  - Vendors
+  - Invoices
+  - Payments
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/ap/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Accounts Receivable API
+  description: REST API for customer management, billing, receipts, and AR reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/ar/
+  tags:
+  - Accounts Receivable
+  - Customers
+  - Billing
+  - Receipts
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/ar/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Asset Management API
+  description: REST API for fixed asset tracking, depreciation, transfers, and asset reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/am/
+  tags:
+  - Asset Management
+  - Fixed Assets
+  - Depreciation
+  - Asset Tracking
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/am/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Purchasing API
+  description: REST API for purchase requisitions, purchase orders, receiving, and procurement reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/po/
+  tags:
+  - Purchasing
+  - Purchase Orders
+  - Requisitions
+  - Procurement
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/po/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Expenses API
+  description: REST API for expense reporting, reimbursements, and travel management
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/exp/
+  tags:
+  - Expenses
+  - Travel
+  - Reimbursements
+  - Expense Reports
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/exp/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Projects API
+  description: REST API for project costing, billing, resource management, and project reporting
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/financials/proj/
+  tags:
+  - Projects
+  - Project Costing
+  - Billing
+  - Resources
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/proj/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+- name: PeopleSoft Query API
+  description: REST API for executing PeopleSoft queries and retrieving data from various financial modules
+  image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
+  humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
+  baseURL: https://{hostname}:{port}/psrestservice/query/
+  tags:
+  - Query
+  - Data Retrieval
+  - Reporting
+  properties:
+  - type: Documentation
+    url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+  - type: OpenAPI
+    url: https://api.example.com/peoplesoft/query/openapi.json
+  contact:
+  - FN: Oracle Support
+    email: support@oracle.com
+    url: https://support.oracle.com
+common:
+- type: Authentication
+  url: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tprs/index.html
+- type: Portal
+  url: https://www.oracle.com/applications/peoplesoft/
+- type: Support
+  url: https://support.oracle.com
+- type: Terms of Service
+  url: https://www.oracle.com/legal/terms.html
+- type: Privacy Policy
+  url: https://www.oracle.com/legal/privacy/
+maintainers:
+- FN: Oracle Corporation
+  email: peoplesoft-info@oracle.com
+  url: https://www.oracle.com/applications/peoplesoft/
