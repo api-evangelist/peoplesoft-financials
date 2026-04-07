@@ -5,11 +5,11 @@ description: >-
 image: https://www.oracle.com/a/ocom/img/logo-peoplesoft.svg
 url: https://www.oracle.com/applications/peoplesoft/
 tags:
+  - Enterprise
   - ERP
   - Financials
-  - PeopleSoft
   - Oracle
-  - Enterprise
+  - PeopleSoft
 created: '2024'
 modified: '2024'
 apis:
@@ -21,14 +21,13 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/financials/gl/
     tags:
-      - General Ledger
-      - Journals
       - ChartFields
       - Financial Reporting
+      - General Ledger
+      - Journals
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/gl/openapi.json
     contact:
@@ -43,13 +42,12 @@ apis:
     baseURL: https://{hostname}:{port}/psrestservice/financials/ap/
     tags:
       - Accounts Payable
-      - Vendors
       - Invoices
       - Payments
+      - Vendors
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/ap/openapi.json
     contact:
@@ -64,13 +62,12 @@ apis:
     baseURL: https://{hostname}:{port}/psrestservice/financials/ar/
     tags:
       - Accounts Receivable
-      - Customers
       - Billing
+      - Customers
       - Receipts
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/ar/openapi.json
     contact:
@@ -85,13 +82,12 @@ apis:
     baseURL: https://{hostname}:{port}/psrestservice/financials/am/
     tags:
       - Asset Management
-      - Fixed Assets
-      - Depreciation
       - Asset Tracking
+      - Depreciation
+      - Fixed Assets
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/am/openapi.json
     contact:
@@ -106,14 +102,13 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/financials/po/
     tags:
-      - Purchasing
-      - Purchase Orders
-      - Requisitions
       - Procurement
+      - Purchase Orders
+      - Purchasing
+      - Requisitions
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/po/openapi.json
     contact:
@@ -127,14 +122,13 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/financials/exp/
     tags:
-      - Expenses
-      - Travel
-      - Reimbursements
       - Expense Reports
+      - Expenses
+      - Reimbursements
+      - Travel
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/exp/openapi.json
     contact:
@@ -148,14 +142,13 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/financials/proj/
     tags:
-      - Projects
-      - Project Costing
       - Billing
+      - Project Costing
+      - Projects
       - Resources
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/proj/openapi.json
     contact:
@@ -170,13 +163,12 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/query/
     tags:
-      - Query
       - Data Retrieval
+      - Query
       - Reporting
     properties:
       - type: Documentation
-        url: 
-          https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
+        url: https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html
       - type: OpenAPI
         url: https://api.example.com/peoplesoft/query/openapi.json
     contact:
