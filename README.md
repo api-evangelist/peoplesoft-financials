@@ -1,7 +1,13 @@
 # PeopleSoft Financials APIs (peoplesoft-financials)
-API collection for Oracle PeopleSoft Financials suite covering General Ledger, Accounts Payable, Accounts Receivable, Asset Management, and other financial modules
+API collection for Oracle PeopleSoft Financials suite covering General Ledger, Accounts Payable, Accounts Receivable, Asset Management, and other financial modules.
 
-**URL:** [Visit APIs.json URL](https://www.oracle.com/applications/peoplesoft/)
+**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/apis.yml)
+
+## Scope
+
+- **Type:** Index 
+- **Position:** Consuming 
+- **Access:** 3rd-Party 
 
 ## Tags:
 
@@ -9,16 +15,15 @@ API collection for Oracle PeopleSoft Financials suite covering General Ledger, A
 
 ## Timestamps
 
-- **Created:** 2024 
-- **Modified:** 2024 
+- **Created:** 2024-01-01 
+- **Modified:** 2026-04-28 
 
 ## APIs
 
 ### PeopleSoft General Ledger API
-REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting
+REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -27,13 +32,11 @@ REST API for managing general ledger operations including journals, chartfields,
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/gl/openapi.json)
 
 ### PeopleSoft Accounts Payable API
-REST API for vendor management, invoice processing, payments, and AP reporting
+REST API for vendor management, invoice processing, payments, and AP reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -42,13 +45,11 @@ REST API for vendor management, invoice processing, payments, and AP reporting
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/ap/openapi.json)
 
 ### PeopleSoft Accounts Receivable API
-REST API for customer management, billing, receipts, and AR reporting
+REST API for customer management, billing, receipts, and AR reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -57,13 +58,11 @@ REST API for customer management, billing, receipts, and AR reporting
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/ar/openapi.json)
 
 ### PeopleSoft Asset Management API
-REST API for fixed asset tracking, depreciation, transfers, and asset reporting
+REST API for fixed asset tracking, depreciation, transfers, and asset reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -72,13 +71,11 @@ REST API for fixed asset tracking, depreciation, transfers, and asset reporting
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/am/openapi.json)
 
 ### PeopleSoft Purchasing API
-REST API for purchase requisitions, purchase orders, receiving, and procurement reporting
+REST API for purchase requisitions, purchase orders, receiving, and procurement reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -87,13 +84,11 @@ REST API for purchase requisitions, purchase orders, receiving, and procurement 
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/po/openapi.json)
 
 ### PeopleSoft Expenses API
-REST API for expense reporting, reimbursements, and travel management
+REST API for expense reporting, reimbursements, and travel management.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -102,13 +97,11 @@ REST API for expense reporting, reimbursements, and travel management
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/exp/openapi.json)
 
 ### PeopleSoft Projects API
-REST API for project costing, billing, resource management, and project reporting
+REST API for project costing, billing, resource management, and project reporting.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -117,13 +110,11 @@ REST API for project costing, billing, resource management, and project reportin
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/proj/openapi.json)
 
 ### PeopleSoft Query API
-REST API for executing PeopleSoft queries and retrieving data from various financial modules
+REST API for executing PeopleSoft queries and retrieving data from various financial modules.
 
 **Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
 
 #### Tags:
 
@@ -132,7 +123,6 @@ REST API for executing PeopleSoft queries and retrieving data from various finan
 #### Properties
 
 - [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-- [OpenAPI](https://api.example.com/peoplesoft/query/openapi.json)
 
 ## Common Properties
 
