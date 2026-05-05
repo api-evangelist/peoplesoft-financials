@@ -1,0 +1,196 @@
+specification: FinOps Framework
+specificationVersion: '1.0'
+alignedWith:
+  framework: FinOps Foundation Framework
+  frameworkUrl: https://www.finops.org/framework/
+  dataSpec: FOCUS
+  dataSpecVersion: '1.3'
+  dataSpecUrl: https://focus.finops.org/focus-specification/v1-3/
+provider: PeopleSoft Financials
+providerId: peoplesoft-financials
+publisherName: PeopleSoft Financials
+serviceCategory: API
+created: '2026-05-04'
+modified: '2026-05-04'
+tags:
+  - Enterprise
+  - ERP
+  - Financials
+  - Oracle
+  - PeopleSoft
+  - FinOps
+  - Cost Management
+  - FOCUS
+description: FinOps framework definition for the PeopleSoft Financials API surface. Provides a FOCUS-aligned
+  mapping for cost allocation, usage measurement, and unit-economics reporting across the provider's APIs.
+principles:
+  - name: Visibility
+    description: Make API consumption costs visible to engineering, product, and finance teams in near
+      real-time.
+  - name: Allocation
+    description: Tag every chargeable API call with the consuming team, environment, application, and
+      feature so cost can be allocated.
+  - name: Optimization
+    description: Continuously evaluate request patterns, caching, batching, and tier selection to reduce
+      cost per useful unit of work.
+  - name: Accountability
+    description: Establish budget owners and chargeback or showback flows for each consuming team.
+domains:
+  - name: Understand Usage and Cost
+    capabilities:
+      - Data Ingestion
+      - Allocation
+      - Reporting and Analytics
+      - Anomaly Management
+  - name: Quantify Business Value
+    capabilities:
+      - Planning and Estimating
+      - Forecasting
+      - Budgeting
+      - Benchmarking
+      - Unit Economics
+  - name: Optimize Usage and Cost
+    capabilities:
+      - Architecting for Cloud
+      - Rate Optimization
+      - Workload Optimization
+      - Cloud Sustainability
+      - Licensing and SaaS
+  - name: Manage the FinOps Practice
+    capabilities:
+      - FinOps Practice Operations
+      - FinOps Education and Enablement
+      - Invoicing and Chargeback
+      - Onboarding Workloads
+      - Intersecting Disciplines
+billingModel:
+  pricingCategory: Usage-Based
+  billingFrequency: Monthly
+  billingCurrency: USD
+  chargeCategories:
+    - Usage
+    - Purchase
+    - Tax
+    - Credit
+    - Adjustment
+  chargeFrequency: Recurring
+focusColumns:
+  ServiceName: PeopleSoft Financials
+  ServiceCategory: Developer Tools / API
+  ProviderName: PeopleSoft Financials
+  PublisherName: PeopleSoft Financials
+  InvoiceIssuerName: PeopleSoft Financials
+  PricingCategory: Usage-Based
+  PricingUnit: request
+  BillingCurrency: USD
+  ChargeCategory: Usage
+meters:
+  - name: api_requests
+    description: Count of billable API requests
+    unit: request
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+      - region
+      - consumer
+  - name: data_egress
+    description: Bytes returned over the network in API responses
+    unit: GB
+    aggregation: sum
+    dimensions:
+      - api
+      - region
+      - consumer
+  - name: compute_seconds
+    description: Server-side compute consumed by the request, where applicable
+    unit: second
+    aggregation: sum
+    dimensions:
+      - api
+      - endpoint
+      - tier
+apis:
+  - name: PeopleSoft General Ledger API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/gl/
+    tags:
+      - ChartFields
+      - Financial Reporting
+      - General Ledger
+      - Journals
+    serviceName: PeopleSoft General Ledger API
+    serviceCategory: API
+  - name: PeopleSoft Accounts Payable API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/ap/
+    tags:
+      - Accounts Payable
+      - Invoices
+      - Payments
+      - Vendors
+    serviceName: PeopleSoft Accounts Payable API
+    serviceCategory: API
+  - name: PeopleSoft Accounts Receivable API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/ar/
+    tags:
+      - Accounts Receivable
+      - Billing
+      - Customers
+      - Receipts
+    serviceName: PeopleSoft Accounts Receivable API
+    serviceCategory: API
+  - name: PeopleSoft Asset Management API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/am/
+    tags:
+      - Asset Management
+      - Asset Tracking
+      - Depreciation
+      - Fixed Assets
+    serviceName: PeopleSoft Asset Management API
+    serviceCategory: API
+  - name: PeopleSoft Purchasing API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/po/
+    tags:
+      - Procurement
+      - Purchase Orders
+      - Purchasing
+      - Requisitions
+    serviceName: PeopleSoft Purchasing API
+    serviceCategory: API
+  - name: PeopleSoft Expenses API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/exp/
+    tags:
+      - Expense Reports
+      - Expenses
+      - Reimbursements
+      - Travel
+    serviceName: PeopleSoft Expenses API
+    serviceCategory: API
+  - name: PeopleSoft Projects API
+    baseURL: https://{hostname}:{port}/psrestservice/financials/proj/
+    tags:
+      - Billing
+      - Project Costing
+      - Projects
+      - Resources
+    serviceName: PeopleSoft Projects API
+    serviceCategory: API
+  - name: PeopleSoft Query API
+    baseURL: https://{hostname}:{port}/psrestservice/query/
+    tags:
+      - Data Retrieval
+      - Query
+      - Reporting
+    serviceName: PeopleSoft Query API
+    serviceCategory: API
+unitEconomics:
+  - name: Cost per 1K Requests
+    metric: billed_cost / (api_requests / 1000)
+    target: TBD
+  - name: Cost per Active Consumer
+    metric: billed_cost / active_consumers
+    target: TBD
+maintainers:
+  - FN: Oracle Corporation
+    email: peoplesoft-info@oracle.com
+    url: https://www.oracle.com/applications/peoplesoft/
