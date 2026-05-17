@@ -184,9 +184,9 @@ common:
     url: https://www.oracle.com/applications/peoplesoft/
   - type: Support
     url: https://support.oracle.com
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.oracle.com/legal/terms.html
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.oracle.com/legal/privacy/
 maintainers:
   - FN: Oracle Corporation
