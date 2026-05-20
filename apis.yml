@@ -178,6 +178,8 @@ apis:
         email: support@oracle.com
         url: https://support.oracle.com
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/peoplesoft-inc
   - type: Authentication
     url: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tprs/index.html
   - type: Portal
