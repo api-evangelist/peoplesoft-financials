@@ -178,6 +178,8 @@ apis:
         email: support@oracle.com
         url: https://support.oracle.com
 common:
+  - type: DomainSecurity
+    url: security/peoplesoft-financials-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/peoplesoft-inc
   - type: Authentication
