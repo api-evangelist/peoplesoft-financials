@@ -141,6 +141,11 @@ apis:
     tags:
       - Expense Reports
       - Expenses
+      - Reimbursement
+      - Travel
+    tags_raw:
+      - Expense Reports
+      - Expenses
       - Reimbursements
       - Travel
     properties:
@@ -159,6 +164,11 @@ apis:
     humanURL: https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html
     baseURL: https://{hostname}:{port}/psrestservice/financials/proj/
     tags:
+      - Billing
+      - Project Costing
+      - Project
+      - Resources
+    tags_raw:
       - Billing
       - Project Costing
       - Projects
