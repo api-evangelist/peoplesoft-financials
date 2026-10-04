@@ -36,7 +36,7 @@ url: >-
 tags:
   - Enterprise
   - ERP
-  - Financial
+  - Finance
   - Oracle
   - PeopleSoft
 tags_raw:
@@ -45,6 +45,7 @@ tags_raw:
   - Financials
   - Oracle
   - PeopleSoft
+  - Financial
 created: '2024-01-01'
 modified: '2026-04-28'
 specificationVersion: '0.23'
