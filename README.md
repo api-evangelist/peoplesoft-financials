@@ -1,4 +1,4 @@
-# PeopleSoft Financials APIs (peoplesoft-financials)
+# PeopleSoft Financials
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,139 +66,73 @@
 
 API collection for Oracle PeopleSoft Financials suite covering General Ledger, Accounts Payable, Accounts Receivable, Asset Management, and other financial modules.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/peoplesoft-financials/refs/heads/main/apis.yml)
+**Areas:** Enterprise · ERP · Finance · Oracle · PeopleSoft
 
-## Scope
+## PeopleSoft Financials on APIs.io
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+Everything profiled for PeopleSoft Financials is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/peoplesoft-financials/](https://apis.io/providers/peoplesoft-financials/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (8)
 
- - ERP, Financials, PeopleSoft, Oracle, Enterprise
+- [PeopleSoft General Ledger API](https://apis.io/apis/peoplesoft-financials/general-ledger/) — REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
+- [PeopleSoft Accounts Payable API](https://apis.io/apis/peoplesoft-financials/accounts-payable/) — REST API for vendor management, invoice processing, payments, and AP reporting.
+- [PeopleSoft Accounts Receivable API](https://apis.io/apis/peoplesoft-financials/accounts-receivable/) — REST API for customer management, billing, receipts, and AR reporting.
+- [PeopleSoft Asset Management API](https://apis.io/apis/peoplesoft-financials/asset-management/) — REST API for fixed asset tracking, depreciation, transfers, and asset reporting.
+- [PeopleSoft Purchasing API](https://apis.io/apis/peoplesoft-financials/purchasing/) — REST API for purchase requisitions, purchase orders, receiving, and procurement reporting.
+- [PeopleSoft Expenses API](https://apis.io/apis/peoplesoft-financials/expenses/) — REST API for expense reporting, reimbursements, and travel management.
+- [PeopleSoft Projects API](https://apis.io/apis/peoplesoft-financials/projects/) — REST API for project costing, billing, resource management, and project reporting.
+- [PeopleSoft Query API](https://apis.io/apis/peoplesoft-financials/query/) — REST API for executing PeopleSoft queries and retrieving data from various financial modules.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2024-01-01 
-- **Modified:** 2026-04-28 
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### PeopleSoft General Ledger API
-REST API for managing general ledger operations including journals, chartfields, budgets, and financial reporting.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
+- [Peoplesoft Financials Domain Security](https://apis.io/security/peoplesoft-financials/peoplesoft-financials-domain-security/)
 
-#### Tags:
+#### Plans and pricing (1)
 
- - General Ledger, Journals, ChartFields, Financial Reporting
+Published plans, tiers and prices.
 
-#### Properties
+- [Peoplesoft Financials Plans Pricing](https://apis.io/plans/peoplesoft-financials/peoplesoft-financials-plans-pricing/)
 
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
+#### Rate limits (1)
 
-### PeopleSoft Accounts Payable API
-REST API for vendor management, invoice processing, payments, and AP reporting.
+Published request limits.
 
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
+- [Peoplesoft Financials Rate Limits](https://apis.io/rate-limits/peoplesoft-financials/peoplesoft-financials-rate-limits/)
 
-#### Tags:
+#### FinOps (1)
 
- - Accounts Payable, Vendors, Invoices, Payments
+What the API costs to run, by operation.
 
-#### Properties
+- [Peoplesoft Financials Finops](https://apis.io/finops/peoplesoft-financials/peoplesoft-financials-finops/)
 
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
+## Where to find this API
 
-### PeopleSoft Accounts Receivable API
-REST API for customer management, billing, receipts, and AR reporting.
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Accounts Receivable, Customers, Billing, Receipts
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-### PeopleSoft Asset Management API
-REST API for fixed asset tracking, depreciation, transfers, and asset reporting.
-
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Asset Management, Fixed Assets, Depreciation, Asset Tracking
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-### PeopleSoft Purchasing API
-REST API for purchase requisitions, purchase orders, receiving, and procurement reporting.
-
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Purchasing, Purchase Orders, Requisitions, Procurement
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-### PeopleSoft Expenses API
-REST API for expense reporting, reimbursements, and travel management.
-
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Expenses, Travel, Reimbursements, Expense Reports
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-### PeopleSoft Projects API
-REST API for project costing, billing, resource management, and project reporting.
-
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Projects, Project Costing, Billing, Resources
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-### PeopleSoft Query API
-REST API for executing PeopleSoft queries and retrieving data from various financial modules.
-
-**Human URL:** [https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/index.html)
-
-#### Tags:
-
- - Query, Data Retrieval, Reporting
-
-#### Properties
-
-- [Documentation](https://docs.oracle.com/cd/E92519_02/fscm92pbr30/eng/fscm/rest_services/index.html)
-
-## Common Properties
-
-- [Authentication](https://docs.oracle.com/cd/E92519_02/pt856pbr3/eng/pt/tprs/index.html)
-- [Portal](https://www.oracle.com/applications/peoplesoft/)
 - [Support](https://support.oracle.com)
-- [Terms of Service](https://www.oracle.com/legal/terms.html)
-- [Privacy Policy](https://www.oracle.com/legal/privacy/)
+- [Terms of service](https://www.oracle.com/legal/terms.html)
+- [Privacy policy](https://www.oracle.com/legal/privacy/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Oracle Corporation
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
 
-**Email:** peoplesoft-info@oracle.com
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PeopleSoft Financials: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/peoplesoft-financials/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
